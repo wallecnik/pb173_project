@@ -8,11 +8,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+int function(void);
+
+/**
  * 
+ * @param argc
+ * @param argv
+ * @return 
  */
 int main(int argc, char** argv) {
 
 	return (EXIT_SUCCESS);
 }
 
+/**
+ * Function that does nothig
+ * 
+ * @return zero
+ */
+int function(void){
+	return 0;
+}

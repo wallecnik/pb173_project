@@ -39,7 +39,7 @@ OBJECTFILES= \
 
 
 # C Compiler Flags
-CFLAGS=
+CFLAGS=-wall -wextra -werror -std=c99 -pedantic
 
 # CC Compiler Flags
 CCFLAGS=
